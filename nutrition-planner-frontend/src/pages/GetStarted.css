@@ -1,0 +1,52 @@
+/* GetStarted.css */
+.get-started-page {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f0fdf4;
+}
+
+/* Optional: Add custom animations */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Optional: Add animated gradient background */
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Optional: Add loading animation for the main card */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Adding some responsive adjustments */
+@media (max-width: 640px) {
+  .max-w-md {
+    width: 90%;
+  }
+}
