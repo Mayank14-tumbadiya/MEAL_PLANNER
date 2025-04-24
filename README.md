@@ -1,4 +1,4 @@
-## Team Number : 32
+
 
 # 🌟 Meal Planner Platform 
 
